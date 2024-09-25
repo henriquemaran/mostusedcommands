@@ -1,4 +1,10 @@
 A primeria vez que roda o container no docker desktop tem que ser rodando essa linha no powershell:
-docker run -it --name meu-centos centos:8.4.2105
+
+    docker run -it --name meu-centos centos:8.4.2105
+    docker run -it --name rocky rockylinux:8.9.20231119
 
 depois disso a interface passa a funcionar. 
+
+para baixar o chrome tanto no centOS quanto no rocky linux, tem que habilitar o epel:
+
+    yum install epel-release
