@@ -1,0 +1,8 @@
+A primeria vez que roda o container no docker desktop tem que ser rodando essa linha no powershell:
+
+docker run -it --name meu-centos centos:8.4.2105
+docker run -it --name centos centos:7.9.2009
+docker run -it --name meu-centos2 centos:centos8.3.2011
+
+
+depois disso a interface passa a funcionar.
