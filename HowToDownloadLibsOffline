@@ -1,0 +1,5 @@
+em versoes mais antigas do rhel, eu usei:
+ yum localinstall 
+
+versao 9+:
+ dnf download --downloadonly --destdir=. --resolve <package-name>
