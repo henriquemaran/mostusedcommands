@@ -3,3 +3,6 @@ em versoes mais antigas do rhel, eu usei:
 
 versao 9+:
  dnf download --downloadonly --destdir=. --resolve <package-name>
+
+ ai pra instalar:
+ dnf install ./*.rpm
